@@ -2,24 +2,20 @@
  * @param {string} s
  * @return {boolean}
  */
-
-const check = (s) => {
-    let l = 0;
-    let r = s.length - 1;
+var isPalindrome = function(s) {
+    let l = 0, r = s.length - 1;
 
     while (l < r) {
-        if (s[l] === s[r]) {
-            l++;
-            r--;
-        } else {
+        while (l < r && !/[a-z0-9]/i.test(s[l])) l++;
+        while (l < r && !/[a-z0-9]/i.test(s[r])) r--;
+
+        if (s[l].toLowerCase() !== s[r].toLowerCase()) {
             return false;
         }
-    }
-    return true;
-}
 
-var isPalindrome = function (s) {
-    const regex = /[^a-zA-Z0-9]/g;
-    const clean = s.replace(regex, '').toLowerCase();
-    return check(clean);
+        l++;
+        r--;
+    }
+
+    return true;
 };
