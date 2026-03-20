@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Madhura70/75daysLeetcodeChallenge/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/Madhura70/75daysLeetcodeChallenge/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/Madhura70/75daysLeetcodeChallenge/tree/master/0217-contains-duplicate) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Madhura70/75daysLeetcodeChallenge/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -29,5 +30,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Madhura70/75daysLeetcodeChallenge/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/Madhura70/75daysLeetcodeChallenge/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
